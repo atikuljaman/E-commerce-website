@@ -1,0 +1,220 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.my-logo {
+  font-weight: 600;
+  font-size: 2rem;
+}
+.my-link {
+  font-size: 1.1rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.user-icon,
+.search-icon,
+.cart-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgb(38, 95, 182);
+  background: linear-gradient(
+    90deg,
+    rgba(38, 95, 182, 1) 0%,
+    rgba(57, 137, 213, 1) 47%,
+    rgba(72, 127, 252, 1) 94%
+  );
+  transition: 0.2s;
+}
+.user-icon:hover {
+  transform: scale(1.1);
+}
+.search-icon:hover {
+  transform: scale(1.1);
+}
+.cart-icon:hover {
+  transform: scale(1.1);
+}
+
+.fa-user,
+.fa-search,
+.fa-shopping-cart {
+  color: white;
+}
+.buttons a,
+small {
+  text-decoration: none;
+  color: white;
+}
+
+.my-bg {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(3, 3, 36, 1) 47%,
+    rgba(2, 15, 45, 1) 94%
+  );
+}
+
+.btn1 {
+  color: white;
+  border: none;
+  padding: 8px 23px;
+  font-weight: 700;
+  border-radius: 4px;
+  background: rgb(38, 95, 182);
+  background: linear-gradient(
+    25deg,
+    rgba(38, 95, 182, 1) 0%,
+    rgba(57, 137, 213, 1) 47%,
+    rgba(72, 127, 252, 1) 94%
+  );
+
+  /* background: rgb(8, 4, 77);
+  background: linear-gradient(
+    90deg,
+    rgba(22, 57, 138, 1) 0% rgba(8, 4, 77, 1) 47%,
+    rgba(11, 11, 83, 1) 94%
+  ); */
+  transition: 0.2s;
+}
+
+.btn1:hover {
+  transform: scale(1.1);
+}
+
+.my-cata {
+  width: 120px;
+}
+
+.my-cata1 {
+  width: 99px;
+}
+.my-row {
+  background-color: #e6e6e6;
+}
+
+.latest-img {
+  width: 200px;
+}
+
+.latest-img1,
+.latest-img2 {
+  width: 200px;
+  height: 268.38px;
+}
+.star-icon {
+  color: #ffcc00;
+}
+.my-price {
+  color: rgba(209, 7, 7, 0.836);
+  font-weight: 700;
+}
+.myico {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 40px;
+  background: rgb(38, 95, 182);
+  background: linear-gradient(
+    25deg,
+    rgba(38, 95, 182, 1) 0%,
+    rgba(57, 137, 213, 1) 47%,
+    rgba(72, 127, 252, 1) 94%
+  );
+}
+.my-row1 {
+  background-color: #f1f1f1;
+}
+.fa-truck,
+.fa-gift,
+.fa-headset,
+.fa-money-check-alt {
+  font-size: 40px;
+  color: white;
+}
+
+.img1 {
+  width: 200px;
+  height: 200px;
+}
+.img2 {
+  width: 150px;
+  height: 100px;
+}
+.img3 {
+  width: 150px;
+}
+.img4 {
+  width: 230px;
+}
+
+.img5 {
+  width: 170px;
+  height: 110px;
+}
+
+.img6 {
+  width: 180px;
+}
+.my-form {
+  background-color: #f1f1f1;
+  padding: 14px 19px;
+}
+.my-fot {
+  line-height: 13px;
+  font-size: 14px;
+  color: whitesmoke;
+}
+
+.my-h {
+  line-height: 25px;
+}
+
+.my-bg1 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(3, 3, 36, 1) 47%,
+    rgba(2, 15, 45, 1) 94%
+  );
+}
+
+.my-cart {
+  background: rgb(38, 95, 182);
+  background: linear-gradient(
+    25deg,
+    rgba(38, 95, 182, 1) 0%,
+    rgba(57, 137, 213, 1) 47%,
+    rgba(72, 127, 252, 1) 94%
+  );
+  padding: 4px 7px;
+}
+
+.my-desc small {
+  font-size: 13px;
+  color: red;
+  cursor: pointer;
+}
+input[type="number"] {
+  width: 70px;
+}
+
+.my-img1 {
+  width: 98px;
+  height: 98px;
+}
+
+.my-hr {
+  padding: 2px 0;
+  background: rgb(38, 95, 182);
+  background: linear-gradient(
+    25deg,
+    rgba(38, 95, 182, 1) 0%,
+    rgba(57, 137, 213, 1) 47%,
+    rgba(72, 127, 252, 1) 94%
+  );
+}
